@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_cloud_zoom'
-  s.version     = '0.0.0'
+  s.version     = '1.0.2'
   s.summary     = 'Detailed view of product images through the use of the jQuery plugin Cloud Zoom'
   s.description = 'Detailed view of product images through the use of the jQuery plugin Cloud Zoom'
   s.required_ruby_version = '>= 1.8.7'
@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
 
   s.has_rdoc = true
 
-  s.add_dependency('spree_core', '>= 0.40.3')
+  s.add_dependency('spree_core', '>= 0.70.3')
 end
